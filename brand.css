@@ -1,0 +1,63 @@
+/* Hanken Grotesk + Cormorant Garamond via Google Fonts (no font binaries provided) */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+
+:root {
+  /* Canonical — one palette, five functions (Folios discipline) */
+  --osp-ink: #0A1018;
+  --osp-paper: #F2F0E9;
+  --osp-beacon: #4DA6FF;
+  --osp-trace: #93A0AD;
+  --osp-hairline: #1E2A3A;
+  --osp-mark-dim: #46617F;
+  --osp-ink-deep: #102526; /* mark on Paper; shared Folios Ink */
+
+  /* Alternate beacons — one per surface, never mixed */
+  --osp-beacon-magenta: #FF4FD8;
+  --osp-beacon-violet: #B26BFF;
+  --osp-beacon-amber: #FFB300;
+  --osp-beacon-coral: #FF5C38;
+  --osp-beacon-mint: #2BFFC8;
+
+  /* Semantic aliases */
+  --osp-surface: var(--osp-ink);
+  --osp-surface-raised: #0E1620;
+  --osp-text: #FFFFFF;
+  --osp-text-muted: var(--osp-trace);
+  --osp-border: var(--osp-hairline);
+  --osp-accent: var(--osp-beacon);
+  --osp-state-valid: var(--osp-beacon-mint);
+  --osp-state-expiring: var(--osp-beacon-amber);
+  --osp-state-revoked: var(--osp-beacon-coral);
+}
+
+:root {
+  --osp-font-sans: 'Hanken Grotesk', sans-serif;
+  --osp-font-serif: 'Cormorant Garamond', serif; /* one italic accent word max */
+  --osp-text-display: 700 64px/1.05 var(--osp-font-sans);
+  --osp-text-headline: 700 40px/1.12 var(--osp-font-sans);
+  --osp-text-title: 700 22px/1.25 var(--osp-font-sans);
+  --osp-text-body: 400 16px/1.6 var(--osp-font-sans);
+  --osp-text-label: 500 14px/1.4 var(--osp-font-sans);
+  --osp-text-meta: 400 13px/1.5 var(--osp-font-sans);
+  --osp-tracking-headline: -0.02em;
+  --osp-tracking-label: 0.02em;
+}
+body { font-family: var(--osp-font-sans); }
+
+:root {
+  --osp-space-1: 4px; --osp-space-2: 8px; --osp-space-3: 12px; --osp-space-4: 16px;
+  --osp-space-5: 24px; --osp-space-6: 32px; --osp-space-7: 48px; --osp-space-8: 64px;
+  --osp-radius: 0; /* sharp edges, always */
+  --osp-safe-margin: 80px; /* social canvases */
+  --osp-grid-unit: 32px;   /* hairline texture grid */
+  --osp-touch-min: 44px;
+}
+
+:root {
+  --osp-glow-qr: 0 0 10px rgba(77, 166, 255, 0.28); /* QR only — nothing else glows */
+  --osp-tornasol: linear-gradient(90deg, #FF4FD8, #E9DDFF, #B26BFF, #E4F1FF, #4DA6FF, #E2FFF6, #2BFFC8);
+  --osp-tornasol-loop: linear-gradient(90deg, #FF4FD8, #E9DDFF, #B26BFF, #E4F1FF, #4DA6FF, #E2FFF6, #2BFFC8, #E9DDFF, #FF4FD8);
+  --osp-holo-field: linear-gradient(115deg, transparent 30%, rgba(255,255,255,0.30) 44%, rgba(255,255,255,0.08) 50%, transparent 64%), radial-gradient(90% 70% at 15% 12%, rgba(255,79,216,0.60), transparent 55%), radial-gradient(80% 60% at 85% 18%, rgba(77,166,255,0.60), transparent 58%), radial-gradient(90% 70% at 70% 95%, rgba(43,255,200,0.50), transparent 55%), radial-gradient(70% 60% at 8% 85%, rgba(178,107,255,0.55), transparent 58%), radial-gradient(60% 50% at 50% 45%, rgba(233,221,255,0.22), transparent 60%), repeating-linear-gradient(115deg, rgba(255,255,255,0.08) 0px, rgba(255,255,255,0) 3px, rgba(255,255,255,0) 46px, rgba(255,255,255,0.08) 64px);
+  --osp-grid-texture: linear-gradient(var(--osp-hairline) 1px, transparent 1px), linear-gradient(90deg, var(--osp-hairline) 1px, transparent 1px);
+}
+@keyframes osp-shimmer { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
