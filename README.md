@@ -7,4 +7,4 @@ Community documentation and browser-only QR Studio for [Open Stay Pass](https://
 - License: MIT
 - Code of Conduct: [CODE_OF_CONDUCT.md](https://github.com/FriskyDevelopments/stay-pass-qr-studio/blob/main/CODE_OF_CONDUCT.md)
 
-This site is powered by Netlify. This hosted community project is free to use and contains no paid plans, advertising, subscriptions, lead capture, or commercial transactions.
+This site is powered by Netlify. This hosted community project is free to use and has no accounts, payments, advertising, subscriptions, lead capture, or commercial transactions.
