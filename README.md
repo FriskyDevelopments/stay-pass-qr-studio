@@ -5,6 +5,6 @@ Community documentation and browser-only QR Studio for [Open Stay Pass](https://
 - Live: https://stay-pass-qr-studio.netlify.app
 - Press kit: https://staypass-pmz7aqns.manus.space/press-kit
 - License: MIT
-- Code of Conduct: [CODE_OF_CONDUCT.md](https://github.com/FriskyDevelopments/open-stay-pass/blob/main/CODE_OF_CONDUCT.md)
+- Code of Conduct: [CODE_OF_CONDUCT.md](https://github.com/FriskyDevelopments/stay-pass-qr-studio/blob/main/CODE_OF_CONDUCT.md)
 
-This site is powered by Netlify. Non-commercial open source.
+This site is powered by Netlify. This hosted community project is free to use and contains no paid plans, advertising, subscriptions, lead capture, or commercial transactions.
