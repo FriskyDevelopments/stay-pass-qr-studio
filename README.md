@@ -49,6 +49,17 @@ _headers          security headers
 netlify.toml      no build step, publish "."
 ```
 
+## Local development
+
+There's no build step and no package manager. Serve the folder with any static server, for example:
+
+```bash
+python3 -m http.server 8080
+# open http://localhost:8080
+```
+
+Note: the source for `app.js` isn't in this repository; only the bundled output is committed.
+
 ## Deploy
 
 Netlify serves the repo root as-is (`netlify.toml`: build command `true`, publish `.`), and `_headers` sets the security headers. This hosted community project is free to use and contains no paid plans, advertising, subscriptions, lead capture or commercial transactions.
